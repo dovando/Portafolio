@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery & Export - Cafe Brew</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Img/icon.png" type="image/png">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="Img/Logo.png" alt="Cafe Brew Logo">
+        </a>
+    </header>
+
+
+    <nav id="menu">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="delivery.html">Delivery &amp; Export</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+
+
+    <main>
+        <section>
+            <h2>Home Delivery</h2>
+            <p>We offer fast and reliable home delivery so you can enjoy fresh coffee without leaving your home. Our
+                delivery service is available within Vancouver, BC and nearby areas with flexible time slots to fit your
+                schedule. </p>
+
+            <p>Fresh Coffee in Just Three Steps:</p>
+            <ol>
+                <li><strong>Order: </strong>Choose your favorite coffee products, preferred blends, roasts, and package
+                    sizes, and add them to your cart.</li>
+                <li><strong>Confirm: </strong>Review your chosen coffees, confirm your delivery address, and complete
+                    your payment to prepare your order for shipment.</li>
+                <li><strong>Deliver: </strong>We carefully pack your coffee to keep it fresh and flavorful, then deliver
+                    it straight to your door so you can enjoy every cup at its best.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Export options</h2>
+            <p>For international orders, we prepare all required export documentation, including commercial invoices and
+                certificates of origin, to ensure compliance with international trade regulations.</p>
+
+            <P>We work with reliable logistics partners to offer air and ground shipping options based on destination,
+                cost, and delivery time.</P>
+
+            <p>All export orders are carefully packed using food-safe materials designed to protect the coffee and
+                preserve freshness during long-distance transport, so your shipment arrives in excellent condition.</p>
+            <!-- <article>Documentation</article> Tengo que ver esta parte con la joven aun. -->
+
+        </section>
+
+
+        <section>
+    <h2>Shipping Information</h2>
+
+    <table class="delivery-table">
+        <caption>Estimated Delivery and Export Options</caption>
+        <tr>
+            <th>Destination</th>
+            <th>Shipping Method</th>
+            <th>Estimated Time</th>
+        </tr>
+        <tr>
+            <td>Vancouver</td>
+            <td>Local Delivery</td>
+            <td>24–48 hours</td>
+        </tr>
+        <tr>
+            <td>North America</td>
+            <td>Ground / Air</td>
+            <td>3–7 business days</td>
+        </tr>
+        <tr>
+            <td>Europe</td>
+            <td>Air Freight</td>
+            <td>5–10 business days</td>
+        </tr>
+        <tr>
+            <td>Asia</td>
+            <td>Air Freight</td>
+            <td>6–12 business days</td>
+        </tr>
+    </table>
+</section>
+
+
+        <section id="shipping-calculator">
+            <h2>Shipping Calculator</h2>
+
+            <p><strong>Origin:</strong> Vancouver, BC</p>
+
+            <label for="destination">Destination:</label>
+            <select id="destination">
+            <option value="local">Vancouver</option>
+            <option value="na">North America</option>
+            <option value="eu">Europe</option>
+            <option value="asia">Asia</option>
+</select>
+
+<label for="boxes">Boxes (25 units per box):</label>
+<input type="number" id="boxes" min="1" value="1">
+
+            <button type="button" onclick="calculateShipping()">Calculate</button>            
+            <p id="result"></p>
+        </section>
+
+
+
+        <section>
+            <h2>Policies</h2>
+            <ul>
+                <li><strong>Delivery:</strong> Orders are processed from Monday to Friday and are usually delivered
+                    within 24 to 48 hours for local delivery. International shipments may take longer depending on
+                    customs processing and transportation times.</li>
+                <li><strong>Returns:</strong> If there is any issue with your order, such as damaged packaging or
+                    incorrect items, please contact us within 48 hours of delivery. We will review the situation and
+                    offer a replacement or refund according to our quality and safety standards.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Cafe Brew. All rights reserved. </p>
+    </footer>
+</body>
+
+</html>
